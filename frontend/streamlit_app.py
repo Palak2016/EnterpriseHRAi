@@ -10,11 +10,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import requests
+import os
 
 st.set_page_config(page_title="Enterprise HR AI - Workforce Intelligence Platform",
                     page_icon="🧠", layout="wide")
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = os.getenv("API_BASE", "https://enterprisehrai.onrender.com")
 
 # ---------------------------------------------------------------------------
 # Small styling pass so charts/cards feel like a single cohesive dark dashboard
