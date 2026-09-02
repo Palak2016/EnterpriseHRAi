@@ -1,3 +1,6 @@
+## streamlit app: https://enterprisehrai-dfs45c7wopxorlcekigjbq.streamlit.app/
+## backend app: https://enterprisehrai.onrender.com
+
 # Enterprise HR AI — Workforce Intelligence & Upskilling Platform
 
 An AI-powered HR platform built to help HR teams answer three practical questions:
